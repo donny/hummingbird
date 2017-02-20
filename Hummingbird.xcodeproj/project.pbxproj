@@ -11,6 +11,12 @@
 		5F2124201E5A40EA002095E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F21241F1E5A40EA002095E3 /* ViewController.swift */; };
 		5F2124221E5A40EA002095E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F2124211E5A40EA002095E3 /* Assets.xcassets */; };
 		5F2124251E5A40EA002095E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2124231E5A40EA002095E3 /* Main.storyboard */; };
+		5FB454D51E5B878A00388327 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB454D41E5B878A00388327 /* Board.swift */; };
+		5FB454D71E5B87B200388327 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB454D61E5B87B200388327 /* List.swift */; };
+		5FB454D91E5B87B700388327 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB454D81E5B87B600388327 /* Card.swift */; };
+		5FB454DB1E5B87C800388327 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB454DA1E5B87C800388327 /* Label.swift */; };
+		5FB454DD1E5B87D500388327 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB454DC1E5B87D500388327 /* Member.swift */; };
+		5FB454DF1E5B88DB00388327 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB454DE1E5B88DB00388327 /* Sticker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		5F2124211E5A40EA002095E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F2124241E5A40EA002095E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F2124261E5A40EA002095E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5FB454D41E5B878A00388327 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		5FB454D61E5B87B200388327 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		5FB454D81E5B87B600388327 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		5FB454DA1E5B87C800388327 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		5FB454DC1E5B87D500388327 /* Member.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		5FB454DE1E5B88DB00388327 /* Sticker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,12 @@
 		5FB454D21E5B853E00388327 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5FB454D41E5B878A00388327 /* Board.swift */,
+				5FB454D61E5B87B200388327 /* List.swift */,
+				5FB454D81E5B87B600388327 /* Card.swift */,
+				5FB454DA1E5B87C800388327 /* Label.swift */,
+				5FB454DC1E5B87D500388327 /* Member.swift */,
+				5FB454DE1E5B88DB00388327 /* Sticker.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -173,7 +191,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F2124201E5A40EA002095E3 /* ViewController.swift in Sources */,
+				5FB454D71E5B87B200388327 /* List.swift in Sources */,
+				5FB454DB1E5B87C800388327 /* Label.swift in Sources */,
+				5FB454D91E5B87B700388327 /* Card.swift in Sources */,
 				5F21241E1E5A40EA002095E3 /* AppDelegate.swift in Sources */,
+				5FB454DF1E5B88DB00388327 /* Sticker.swift in Sources */,
+				5FB454DD1E5B87D500388327 /* Member.swift in Sources */,
+				5FB454D51E5B878A00388327 /* Board.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
