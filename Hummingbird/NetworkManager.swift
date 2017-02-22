@@ -47,7 +47,7 @@ class NetworkManager {
                 } else if let data = data {
                     result = .success(data)
                 } else {
-                    result = .failure(NSError(domain: "MacarelloErrorDomain", code: 0, userInfo: nil))
+                    result = .failure(NSError(domain: "HummingbirdErrorDomain", code: 0, userInfo: nil))
                 }
                 
                 OperationQueue.main.addOperation({ () -> Void in

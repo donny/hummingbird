@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9532"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ListItem" customModule="Hummingbird" customModuleProvider="target">
+            <connections>
+                <outlet property="cardCollectionView" destination="P8m-SI-4ee" id="Hnk-Vn-3FX"/>
+                <outlet property="name" destination="V9O-Mk-sDl" id="RX0-VL-xWp"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <scrollView autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0uk-yB-FbC" customClass="VerticalScrollView" customModule="Hummingbird" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="226"/>
+                    <clipView key="contentView" id="92g-Nb-xg8">
+                        <rect key="frame" x="1" y="1" width="478" height="224"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView id="P8m-SI-4ee">
+                                <rect key="frame" x="0.0" y="0.0" width="478" height="224"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="-2" id="Crf-q2-YlF"/>
+                                    <outlet property="delegate" destination="-2" id="I1g-1g-nrX"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="PLn-AT-8hM">
+                        <rect key="frame" x="1" y="144" width="233" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="xYy-yj-c14">
+                        <rect key="frame" x="234" y="1" width="15" height="143"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="V9O-Mk-sDl">
+                    <rect key="frame" x="220" y="240" width="41" height="18"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="w9F-2n-C2E">
+                        <font key="font" metaFont="systemSemibold" size="14"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="0uk-yB-FbC" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="0uq-jk-38E"/>
+                <constraint firstAttribute="trailing" secondItem="0uk-yB-FbC" secondAttribute="trailing" id="Alr-Be-Yko"/>
+                <constraint firstItem="V9O-Mk-sDl" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="U5p-PE-EIe"/>
+                <constraint firstItem="V9O-Mk-sDl" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="14" id="UbF-Op-2md"/>
+                <constraint firstItem="0uk-yB-FbC" firstAttribute="top" secondItem="V9O-Mk-sDl" secondAttribute="bottom" constant="14" id="hat-ch-cPE"/>
+                <constraint firstAttribute="bottom" secondItem="0uk-yB-FbC" secondAttribute="bottom" id="mCe-FA-W68"/>
+            </constraints>
+        </customView>
+        <collectionViewItem id="CLZ-do-stA" customClass="ListItem" customModule="Hummingbird" customModuleProvider="target"/>
+    </objects>
+</document>
