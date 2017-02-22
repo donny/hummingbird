@@ -36,7 +36,7 @@ struct Card {
             guard let stickerDictionary = sticker as? Dictionary<String, AnyObject> else {
                 return nil
             }
-            print(stickerDictionary)
+            // print(stickerDictionary)
             return Sticker(dictionary: stickerDictionary)
         }
     }

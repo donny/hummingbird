@@ -12,11 +12,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="Macrello" id="1Xt-HY-uBw">
+                            <menuItem title="Hummingbird" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Macrello" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Hummingbird" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About Macrello" id="5kV-Vb-QxS">
+                                        <menuItem title="About Hummingbird" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -673,7 +673,7 @@
                                 <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="k3q-Tf-fTm"/>
                                 <toolbarItem implicitItemIdentifier="2C1D5EEC-B194-4FB7-9FFF-58CACC40926A" label="Board" paletteLabel="Board" id="k4S-Rk-9Uv">
                                     <nil key="toolTip"/>
-                                    <size key="minSize" width="100" height="26"/>
+                                    <size key="minSize" width="102" height="27"/>
                                     <size key="maxSize" width="200" height="26"/>
                                     <popUpButton key="view" verticalHuggingPriority="750" id="L4J-kg-AaN">
                                         <rect key="frame" x="0.0" y="14" width="100" height="26"/>
