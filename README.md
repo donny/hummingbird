@@ -26,6 +26,13 @@ The screenshot of the app is shown below:
 
 ### Implementation
 
+The source files are grouped into three main sections: `Managers`, `Models`, and `Controllers`.
+
+There are two manager classes. [`PreferenceManager.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/PreferenceManager.swift) acts as an interface to `UserDefaults` and it's responsible for saving and retrieving the Trello token key. [`NetworkManager.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/NetworkManager.swift) is responsible for making network calls and transforming the JSON results into data models.
+
+The data models are represented as Swift `struct` in: [`Board.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/Board.swift), [`List.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/List.swift), [`Card.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/Card.swift), [`Label.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/Label.swift), [`Member.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/Member.swift), and [`Sticker.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/Sticker.swift).
+
+
 It's implemented with models, managers, and view controllers.
 
 ### Conclusion

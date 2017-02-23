@@ -15,8 +15,8 @@ import Foundation
 class NetworkManager {
     private let session: URLSession
     private let baseURL = URL(string: "https://api.trello.com/1")
-    private let trelloAppKey = "ba83985c6001257105749696518aca16"
-    private let trelloUserToken = "1c70dd9e8d41f3a47bdc38b7f91e46fe8601048a004c882eedd22c654a98e09c"
+    private let trelloAppKey = "83985c6001257105749696518aca16"
+    private let trelloUserToken = "1c70dd9e8d41f3a47bdc38b7f91e46fe8601048a004c882eedd22c654a98e0"
     
     enum FetchResult {
         case success(Data)
