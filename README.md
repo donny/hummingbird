@@ -12,12 +12,17 @@ I built a small Trello client for macOS in April last year using Swift 2 and App
 
 Hummingbird was developed using Xcode 8.2 and Swift 3. To build the project, simply download the Xcode project file, open it, and run the app.
 
-There are a few steps that need to be done to get the Trello key:
+There are a few steps that need to be done to access Trello API:
 
-...
+1. Go to https://trello.com/app-key to get the Trello Developer API key
+2. Authorize the client: https://trello.com/1/authorize?expiration=never&name=Hummingbird&key=KEY_FROM_STEP1&response_type=token
+3. Make calls: https://api.trello.com/1/members/me/boards?key=KEY_FROM_STEP1&token=TOKEN_FROM_STEP2
+
+When you run Hummingbird for the first time, open its Preferences window to enter the Trello token.
 
 The screenshot of the app is shown below:
 
+![Screenshot](https://raw.githubusercontent.com/donny/hummingbird/master/screenshot.png)
 
 ### Implementation
 

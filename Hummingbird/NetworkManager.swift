@@ -7,8 +7,8 @@
 //
 
 // Get the API key: https://trello.com/app-key
-// Authorize the client: https://trello.com/1/authorize?expiration=never&name=Macrello&key=ba83985c6001257105749696518aca16&response_type=token
-// Make calls: https://api.trello.com/1/members/me/boards?key=ba83985c6001257105749696518aca16&token=1c70dd9e8d41f3a47bdc38b7f91e46fe8601048a004c882eedd22c654a98e09c
+// Authorize the client: https://trello.com/1/authorize?expiration=never&name=Hummingbird&key=83985c6001257105749696518aca16&response_type=token
+// Make calls: https://api.trello.com/1/members/me/boards?key=83985c6001257105749696518aca16&token=1c70dd9e8d41f3a47bdc38b7f91e46fe8601048a004c882eedd22c654a98e0
 
 import Foundation
 
