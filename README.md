@@ -1,6 +1,6 @@
 # hummingbird
 
-Hummingbird is a [Trello](https://trello.com) client for macOS written using [Swift](https://swift.org) 3 and [AppKit](https://developer.apple.com/reference/appkit).
+Hummingbird is a [Trello](https://trello.com) read-only client for macOS written using [Swift](https://swift.org) 3 and [AppKit](https://developer.apple.com/reference/appkit).
 
 ### Background
 
