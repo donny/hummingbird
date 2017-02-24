@@ -34,8 +34,6 @@ The data models are represented as Swift `struct` in: [`Board.swift`](https://gi
 
 Hummingbird uses `NSCollectionView` for the container views and they are implemented using Storyboard and Interface Builder.
 
-Most of the Swift conversions for Hummingbird are done automatically by Xcode.
-
 ### Conclusion
 
-...
+I like Swift and it's been getting better with each successive version. Although, I have to say that I think the language is getting _bigger_ with more keywords and concepts. It's definitely a complex language compared to its older and simpler sibling, the C language. In this project, I got the chance to revisit AppKit development and the Trello API. AppKit is getting more powerful and easier to take since Apple introduces a lot of UIKit-inspired frameworks, for example, `NSCollectionView`. I'm looking forward to use Swift 3 for server side development in future projects.
