@@ -32,8 +32,9 @@ There are two manager classes. [`PreferenceManager.swift`](https://github.com/do
 
 The data models are represented as Swift `struct` in: [`Board.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/Board.swift), [`List.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/List.swift), [`Card.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/Card.swift), [`Label.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/Label.swift), [`Member.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/Member.swift), and [`Sticker.swift`](https://github.com/donny/hummingbird/blob/master/Hummingbird/Sticker.swift).
 
+Hummingbird uses `NSCollectionView` for the container views and they are implemented using Storyboard and Interface Builder.
 
-It's implemented with models, managers, and view controllers.
+Most of the Swift conversions for Hummingbird are done automatically by Xcode.
 
 ### Conclusion
 
